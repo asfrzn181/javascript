@@ -54,7 +54,7 @@ double_nol.onclick = function(){
 }
 
 kali.onclick = function(){
-	addValue('^');
+	addValue('*');
 }
 
 bagi.onclick = function(){
