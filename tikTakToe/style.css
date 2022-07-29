@@ -1,0 +1,83 @@
+@media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+@media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
+@media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Itim',cursive;
+}
+
+.background{
+	background-color: #6F6F6F;
+	height: 100vh;
+	padding-top: 1px;
+}
+.title{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10%;
+}
+
+.display{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.hide {
+	display: none;
+}
+
+.container {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 33% 33% 33%;
+	max-width: 300px;
+}
+
+.tile{
+	border: 1px solid white;
+	min-width: 100px;
+	min-height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.playerX{
+	color: #09C372;
+}
+
+.playerO{
+	color: #498AFB;
+}
+
+.controls{
+	background-color: #6F6F6F;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+}
+
+#reset{
+	background-color: #FF3860;
+	color: white;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	font-size: 20px;
+	margin-left: 1em;
+	cursor: pointer;
+}

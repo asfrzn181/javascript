@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="index.js"></script>
+	<title>TIC TAC TOE</title>
+</head>
+<body>
+	<main class="background">
+		<section class="title">
+			<h1>TIC TAC TOE</h1>
+		</section>
+		<section class="display">
+			Player <span class="display-player playerX">X</span>'s turn
+		</section>
+		<section class="container">
+			<script type="text/javascript">
+				for(var i = 1; i<=9; i++){
+					document.write('<div class="tile"></div>');
+				}
+			</script>
+		</section>
+		<section class="display announcer hide"></section>
+		<section class="controls">
+			<button id="reset">Reset</button>
+		</section>
+	</main>
+</body>
+</html>
